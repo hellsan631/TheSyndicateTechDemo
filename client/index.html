@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tech Demo</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/materialize/dist/css/materialize.css">
+  <link rel="stylesheet" href="vendor/dragula.js/dist/dragula.css">
+  <link rel="stylesheet" href="vendor/sweetalert/dist/sweetalert.css">
+  <link rel="stylesheet" href="vendor/pagePiling.js/jquery.pagepiling.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <div id="pagepiling">
+    <div class="page">
+      <section class="container">
+        <div class="row">
+          <div class="col s12 center">
+            <h2>The Syndicate</h2>
+            <h4>Tech Demo</h4>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="page">
+      <section class="container">
+        <div class="row">
+          <div class="col s12 center">
+            <h4>Drag & Drop</h4>
+            <h6>Spell Syndicate</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s8 center">
+            <h6>Sample Blog Post</h6>
+          </div>
+          <div class="col s3 center">
+            <h6>Drag Words Here</h6>
+          </div>
+          <div class="dragables">
+            <div id="left" class="col s8">
+              <span><b>S</b>ed</span>
+              <span>ut </span>
+              <span>perspiciatis </span>
+              <span>unde </span>
+              <span>omnis </span>
+              <span><b>y</b>iste </span>
+              <span><b>n</b>atus </span>
+              <span>berror </span>
+              <span>sit </span>
+              <span>voluptatem </span>
+              <span><b>d</b>icota </span>
+              <span><b>a</b>ccusantium </span>
+              <span>doloremque </span>
+              <span>laudantium, </span>
+              <span><b>t</b>otam </span>
+              <span>rem, </span>
+              <span>faque </span>
+              <span><b>i</b>psa </span>
+              <span><b>c</b>uae </span>
+              <span>grello </span>
+              <span><b>e</b>xplicabo. </span>
+            </div>
+            <div id="right" class="col s3"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="page white-text">
+      <div class="container">
+        <div class="row">
+          <div class="col s6 offset-s3 center">
+            <h4 class="white-text">Text Scramble</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6 offset-s3">
+            <div class="scrambled" sid="1"></div>
+            <input
+              type="text"
+              sid="1"
+              class="scramble"
+              name="username"
+              placeholder="Enter some text"
+            />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="vendor/jquery/dist/jquery.js"></script>
+  <script src="vendor/materialize/dist/js/materialize.js"></script>
+  <script src="vendor/dragula.js/dist/dragula.js"></script>
+  <script src="vendor/pagePiling.js/jquery.pagepiling.js"></script>
+  <script src="vendor/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="app/scramble.js"></script>
+  <script src="app/app.js"></script>
+
+</html>

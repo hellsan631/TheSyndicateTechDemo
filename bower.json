@@ -1,0 +1,15 @@
+{
+  "name": "secret",
+  "description": "a secret web project",
+  "version": "0.1.0",
+  "authors": [
+    "Mathew Kleppin <mathew.kleppin@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dragula.js": "dragula#~3.5.1",
+    "Materialize": "materialize#~0.97.0",
+    "pagePiling.js": "pagepiling.js#~1.5.1",
+    "sweetalert": "~1.1.0"
+  }
+}

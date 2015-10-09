@@ -1,0 +1,155 @@
+/* _functions.scss */
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+/*
+## Triangle
+* @include triangle within a pseudo element and add positioning properties (ie. top, left)
+* $direction: up, down, left, right
+*/
+/*
+* Currency
+*/
+/*
+* Clearfix
+*/
+.clearfix {
+  *zoom: 1; }
+  .clearfix:after {
+    content: '';
+    display: table;
+    line-height: 0;
+    clear: both; }
+
+/*
+* Respond To
+* Copied from UtilityBelt- https://github.com/dmtintner/UtilityBelt
+*
+* Example:
+* @include respondTo(smartphone){ display: none; }
+*
+*/
+/*
+* Ghost Vertical Align
+*/
+/*
+* Truncate Text
+*/
+/*
+* Animation
+*/
+/*
+* Alerted
+*/
+@-webkit-keyframes alertMe {
+  from {
+    border-width: 3px;
+    border-color: gold; }
+  to {
+    border-width: 0;
+    border-color: rgba(255, 215, 0, 0.1); } }
+
+@-moz-keyframes alertMe {
+  from {
+    border-width: 3px;
+    border-color: gold; }
+  to {
+    border-width: 0;
+    border-color: rgba(255, 215, 0, 0.1); } }
+
+@-ms-keyframes alertMe {
+  from {
+    border-width: 3px;
+    border-color: gold; }
+  to {
+    border-width: 0;
+    border-color: rgba(255, 215, 0, 0.1); } }
+
+@keyframes alertMe {
+  from {
+    border-width: 3px;
+    border-color: gold; }
+  to {
+    border-width: 0;
+    border-color: rgba(255, 215, 0, 0.1); } }
+
+/* colors.scss */
+.primary-red {
+  background-color: #F12A27 !important; }
+
+.primary-red-text {
+  color: #F12A27 !important; }
+
+.primary-black {
+  background-color: #212121 !important; }
+
+.primary-black-text {
+  color: #212121 !important; }
+
+.primary-white {
+  background-color: #F1F1F1 !important; }
+
+.primary-white-text {
+  color: #F1F1F1 !important; }
+
+.secondary-purple {
+  background-color: #6f4f96 !important; }
+
+.secondary-blue {
+  background-color: #7f93bf !important; }
+
+.secondary-yellow {
+  background-color: #ffc823 !important; }
+
+.grey-dark {
+  background-color: #363636 !important; }
+
+.grey-grey {
+  background-color: #7b7373 !important; }
+
+.grey-light {
+  background-color: #878293 !important; }
+
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent; }
+
+.dragables div {
+  padding-bottom: 40px;
+  height: 400px;
+  margin: 0 10px; }
+
+.dragables span {
+  cursor: grab;
+  cursor: -webkit-grab; }
+
+.dragables #left {
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.1); }
+
+.dragables #right {
+  font-size: 1em;
+  background: rgba(0, 0, 0, 0.1); }
+  .dragables #right span {
+    margin-top: 5px;
+    display: inline-block;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #F12A27;
+    margin-right: 100px; }
+
+.scrambled {
+  height: 2em; }
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%; } }
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%; } }
